@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EEEP Lúcia Baltazar Costa</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="SiteEP.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+
+    <img src="imagensEP/logo.png" alt="Logo" width="90" height="75">
+
+    <a class="navbar-brand" href="#">Lúcia Baltazar Costa</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end text-bg-dark" id="menuLateral">
+
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body">
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Informações</a>
+          </li>
+
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cursos</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#ADM">Administração</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#DDS">Desenvolvimento de Sistemas </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#EDF">Edificações</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#MASSO">Massoterapia</a></li>
+            </ul>
+          </li>
+
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#agenda" data-bs-toggle="dropdown">Agenda</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#agenda">Eventos</a></li>
+             <li><hr class=" dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#agenda">Datas Comemorativas</a></li>
+             <li><hr class=" dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#agenda">JECEP</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#contatos" data-bs-toggle="dropdown">Contatos</a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#contatos">Emails</a></li>
+             <li><hr class=" dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#contatos">Telefones</a></li>
+            
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<main class="bg-fundo">
+  <div class="container" style="margin-top:110px;">
+
+
+
+  <section class="mb-5">
+    <div class="bg-success text-light p-5 rounded-3 shadow text-center">
+      <h1 class="fw-bold">EEEP Lúcia Baltazar Costa</h1>
+      <p class="lead">Educação de excelência que transforma o seu futuro.</p> 
+      <button class="btn btn-outline-light">Conheça a escola</button>
+    </div>
+  </section>
+
+  <!-- Cursos -->
+  <section id="cursos" class="mb-5 ">
+    <h1 class="mb-4  text-light ">Cursos Técnicos</h1>
+
+    <div class="d-flex flex-column gap-4">
+
+      <div id="ADM" class="card shadow-sm ">
+        <div class="card-body">
+          <h5 class="card-title">Administração</h5>
+          <p class="card-text">Aprenda sobre gestão, organização de empresas e empreendedorismo. </p>
+          <button class="btn btn-outline-dark">Mais sobre o curso</button>
+          
+            </ul>
+          </li>
+        </div>
+      </div>
+
+      <div id="DDS" class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Desenvolvimento de Sistemas</h5>
+            <p class="card-text">Criação de sites, sistemas e programação moderna. </p> 
+            <button class="btn btn-outline-dark">Mais sobre o curso</button>
+          
+        </div>
+      </div>
+
+      <div id="EDF" class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Edificações</h5>
+          <p class="card-text">Projetos de construção civil e planejamento de obras.</p>
+          <button class="btn btn-outline-dark">Mais sobre o curso</button>
+        </div>
+      </div>
+
+      <div id="MASSO"class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Massoterapia</h5>
+          <p class="card-text">Técnicas de relaxamento e cuidados com o corpo.</p>
+          <button class="btn btn-outline-dark">Mais sobre o curso</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Agenda -->
+  <section id="agenda" class="mb-5 orange-500">
+    <div class="p-4  text-light rounded-3 ">
+      <h3>Agenda Escolar</h3>
+      <p>Eventos, datas importantes e atividades da escola.</p> <button class="btn btn-outline-light">Mais informações</button>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+  <section id="contatos" class="mb-5 orange-500">
+    <div class="p-4  text-light rounded-3">
+      <h3>Contatos</h3>
+      <p>Email: escola@email.com</p>
+      <p>Telefone: (88) 99999-9999</p>
+    </div>
+  </section>
+  </div>
+</main>
+
+<footer class="bg-success text-light text-center py-3 ">
+  <div class="container">
+    <p class="mb-1">EEEP Lúcia Baltazar Costa</p>
+    <p class="mb-0">Limoeiro do Norte - CE</p>
+  </div>
+</footer>
+
+</body>
+</html>
