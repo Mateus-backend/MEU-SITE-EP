@@ -1,0 +1,67 @@
+:root {
+  --verde: #198754;
+  --laranja: #fd7e14;
+  --branco: #ffffff;
+}
+
+body {
+  background-color: var(--branco);
+}
+
+.navbar {
+  background-color: var(--verde) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: var(--branco) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--laranja) !important;
+}
+
+.card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: var(--verde);
+}
+
+.btn-custom {
+  background-color: var(--laranja);
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: #e46a0f;
+}
+
+i {
+  color: var(--verde);
+}
+
+.bg-fundo {
+  background: url('imagensEP/IMAGEM\ EVENTO\ EP.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+}
+
+.bg-orange-500{
+  background-color: ;
+}
+
+
+
+.orange-500{
+  background-color: #f97316;
+  border-radius: 8px;
+}
